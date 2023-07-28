@@ -1,0 +1,123 @@
+.work-block{
+    margin-top: 137px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .main-work-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            height: 68px;
+            color: var(--color-gray-gray-900, #101828);
+            text-align: center;
+            
+            font-family: Chivo;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 64px;
+            letter-spacing: -1px;
+        }
+        p{
+            margin-top: 29px;
+            width: 743px;
+            height: 110px;
+
+            color: var(--color-gray-gray-600, #475467);
+            text-align: center;
+
+            font-family: Noto Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+        }
+        @media (max-width: 760px) {
+            h1{
+                width: 100%;
+                height: 100%;
+                font-size: 38px;
+            }
+            p{
+                margin-top: 0px;
+                width: 80%;
+                height: 100%;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .container{
+        margin-top: 45px;
+        margin-right: 0px;
+        margin-left: 0px;
+        .Card{
+            display: block;
+            width: 458px;
+            min-height: 186px;
+            margin-right: 15px;
+            margin-left: 15px;
+            border-bottom: 2px #E4E7EC solid;
+        }
+        @media (max-width: 1487px) {
+            .Card{
+                margin-bottom: 20px;
+            }
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            h2{
+                color: var(--color-gray-gray-900, #101828);
+
+                font-family: Chivo;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 32px;
+            }
+            p{
+                margin-top: 20px;
+                display: flex;
+                color: var(--color-gray-gray-600, #475467);
+
+                font-family: Noto Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+            }
+            @media (max-width: 760px) {
+                h2{
+                    font-size: 24px;
+                }
+                p{
+                    margin-top: 10px;
+                }
+            }
+        }
+        .icon{
+            margin-right: 21px;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+            width: 80px;
+            height: 80px;
+            background-color: #E4E7EC;
+        }
+    }
+    @media (min-width:1420px) {
+        .container{
+            max-width: 100%;
+        }
+    }
+}
+@media (max-width: 760px) {
+    .work-block{
+        margin-top: 30px;
+    }
+}
